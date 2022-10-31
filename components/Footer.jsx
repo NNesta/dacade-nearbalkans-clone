@@ -26,18 +26,18 @@ function Footer() {
     <ul className='flex flex-col lg:flex-row justify-between gap-8 text-lg lg:max-w-[80%] mx-auto'>
 
    <li className='lg:max-w-[15%] text-center'>
-  <Link href='/'>NEAR Balkans 2022</Link>
+  <Link href='https://dacade-nearbalkans.netlify.app/'>NEAR Balkans 2022</Link>
    </li>
    <li className='lg:max-w-[20%] text-center'>
-  <Link href='/'>info@nearbalkans.org
+  <Link href='%20info@nearbalkans.org'>info@nearbalkans.org
 
 </Link>
    </li>
    <li className='lg:max-w-[10%] text-center'>
-  <Link href='/'>Privacy Policy</Link>
+  <Link href='https://dacade.org/privacy-policy/'>Privacy Policy</Link>
    </li>
    <li className='lg:max-w-[10%] text-center'>
-  <Link href='/'>Cookie Policy</Link>
+  <Link href='https://dacade.org/privacy-policy/'>Cookie Policy</Link>
    </li>
    <li className='lg:max-w-[20%] text-center'>
   <Link href='/'>Terms & Conditions</Link>

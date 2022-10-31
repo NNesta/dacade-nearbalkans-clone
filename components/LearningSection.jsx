@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import Button from './Button';
 import Header from './Header';
 
@@ -14,7 +15,7 @@ function LearningSection() {
           <p className='text-xl text-primaryTextColor2 mb-8 max-w-[68%] text-center lg:text-left'>Opening a NEAR wallet is the first step and
 essential part of joining the NEAR community
 as well as starting this course.</p>
-   <Button identifier="Create wallet" outline/>
+   <Link href='https://wallet.near.org/'><Button identifier="Create wallet" outline/></Link>
         </div>
         <div className='mx-auto order-1 lg:order-2 relative'>
           <div className='absolute h-[480px] w-full max-w-[480px] -top-2/3 -z-10 left-[20%] hidden lg:block near-logo'/>
