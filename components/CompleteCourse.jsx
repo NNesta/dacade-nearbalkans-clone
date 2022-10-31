@@ -4,6 +4,7 @@ import Header from './Header';
 
 function CompleteCourse() {
   return (
+    <div className='container mx-auto w-full relative'>
     <div className='flex flex-col  my-16 items-center px-4 lg:px-24 w-full'>
    <div className='flex flex-col gap-4 lg:flex-row w-full justify-between'>
      <div className='mx-auto relative'>
@@ -36,7 +37,7 @@ function CompleteCourse() {
    <div className='hidden lg:block'>
      <Image src='/assets/arrow-2.svg' width={164} height={132} layout='responsive' alt='arrow'/>
    </div>
- </div>
+ </div></div>
   )
 }
 

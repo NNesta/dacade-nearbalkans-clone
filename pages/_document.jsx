@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
       <link href="http://fonts.cdnfonts.com/css/graphik" rel="stylesheet"/>            
         </Head>
-      <body className='container mx-auto w-full'>
+      <body>
         <Main />
         <NextScript />
       </body>
