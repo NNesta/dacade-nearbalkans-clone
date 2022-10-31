@@ -11,13 +11,13 @@ function Navbar() {
    <div onClick={()=>setOpenModel(false)}  className='flex justify-between '>
     <div className='flex items-center'>
         <div className='flex gap-2 border-r-2 border-gray-300 items-center  pr-2'>
-      <Image src='/assets/decade.svg' height={40} width={40} />
+      <Image src='/assets/decade.svg' height={40} width={40} alt='balkans' />
       <h2 className='text-lg font-bold hidden md:block'>Decade</h2>
         </div>
         <div className='pl-2'>
   
-      <Image className='block lg:hidden' src='/assets/balkans-2.svg' height={10} width={30} />
-      <Image className='hidden lg:block' src='/assets/balkans.svg' height={10} width={100} />
+      <Image className='block lg:hidden' src='/assets/balkans-2.svg' height={10} width={30} alt='balkans' />
+      <Image className='hidden lg:block' src='/assets/balkans.svg' height={10} width={100} alt='balkans' />
         </div>
     </div>
     <div className='flex items-center gap-8'>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Header from './header';
+import Header from './Header';
 
 function ClaimCertificate() {
   return (
@@ -8,7 +8,7 @@ function ClaimCertificate() {
         <Header text="Claim NEAR certificate"/>
         <p className='max-w-[90%] mx-auto lg:max-w-[40%] text-center pb-16'>Upon course completion, receive the NEAR dev 101
 certificate as an NFT on your NEAR wallet.</p>
-<Image src='/assets/certificate.png' height={500} width={800} layout='responsive' />
+<Image src='/assets/certificate.png' height={500} width={800} layout='responsive' alt='certificate' />
 
     </div>
   )

@@ -10,7 +10,7 @@ function Herosection() {
        <p className='text-[1.5rem] text-primaryTextColor2 leading-[28px] pb-24 text-lg'>We, in NEAR Balkans, know how important it is to have regional and local support. Now you can become NEAR certified in a regional language of preference and connect with our team to support your further growth within the NEAR ecosystem.</p>
        <div className='pt-4'>
         <button onClick={()=>window.location.href='#learn'}>
-    <Image src='/assets/downArrow.svg' height={25} width={25} layout='responsive'/>
+    <Image src='/assets/downArrow.svg' height={25} width={25} layout='responsive' alt='arrow  '/>
         </button>
        </div>
     </div>

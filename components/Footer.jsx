@@ -9,16 +9,16 @@ function Footer() {
     <div className='flex items-center lg:justify-between lg:max-w-[80%] mx-auto w-full'>
         <div className=' hidden lg:block pl-32 border-r-2 flex-1' >
 
-    <Image src='/assets/balkans.svg' height={38} width={120} />
+    <Image src='/assets/balkans.svg' height={38} width={120} alt='balkans' />
         </div>
       
     <div className='col-span-2 flex items-center gap-4 px-12 lg:px-28 '>
-       <Image src='/assets/twitter.svg' width={29} height={24} layout='responsive' />
-       <Image src='/assets/discord.svg' width={28} height={22} layout='responsive' />
-       <Image src='/assets/telegram.svg' width={27} height={20} layout='responsive' />
-       <Image src='/assets/facebook.svg' width={15} height={28} layout='responsive' />
-       <Image src='/assets/linkedin.svg' width={25} height={24} layout='responsive' />
-       <Image src='/assets/instagram.svg' width={28} height={28} layout='responsive' />
+       <Image src='/assets/twitter.svg' width={29} height={24} layout='responsive' alt='socials' />
+       <Image src='/assets/discord.svg' width={28} height={22} layout='responsive' alt='socials' />
+       <Image src='/assets/telegram.svg' width={27} height={20} layout='responsive' alt='socials' />
+       <Image src='/assets/facebook.svg' width={15} height={28} layout='responsive' alt='socials' />
+       <Image src='/assets/linkedin.svg' width={25} height={24} layout='responsive' alt='socials' />
+       <Image src='/assets/instagram.svg' width={28} height={28} layout='responsive' alt='socials' />
        <Image src='/assets/medium.svg' width={32} height={18} layout='responsive' />
     </div>
     </div>

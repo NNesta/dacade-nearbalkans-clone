@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Button from './Button';
-import Header from './header';
+import Header from './Header';
 
 function LearningSection() {
   return (
@@ -18,13 +18,13 @@ as well as starting this course.</p>
         <div className='mx-auto order-1 lg:order-2 relative'>
           <div className='absolute h-[480px] w-full max-w-[480px] -top-2/3 -z-10 left-[20%] hidden lg:block near-logo'/>
           <div className=' w-[296px] bg-white '>
-          <Image src='/assets/logo-1.png' height={296} width={296} layout='responsive'/>
+          <Image src='/assets/logo-1.png' height={296} width={296} layout='responsive' alt='logo'/>
           </div>
         </div>
         
       </div>
       <div className='hidden lg:block -mt-8'>
-        <Image src='/assets/arrow-1.svg' width={164} height={132} layout='responsive'/>
+        <Image src='/assets/arrow-1.svg' width={164} height={132} layout='responsive' alt='arrow'/>
       </div>
     </div>
   )

@@ -29,7 +29,7 @@ function Modal(props) {
 <div className='p-6 flex flex-col gap-4'>
 <button className='border rounded-lg border-gray-200 flex justify-between items-center px-6 py-3'>
     <div className=' items-center flex gap-4'>
-    <Image src='/assets/f-croatian.svg' width={21} height={14} />
+    <Image src='/assets/f-croatian.svg' width={21} height={14} alt='flag' />
     <p>Croatian</p>
     </div>
   <div className='bg-gray-300 rounded-full h-8 w-8 items-center inline-flex justify-center'>
@@ -41,7 +41,7 @@ function Modal(props) {
 </button>
 <button className='border rounded-lg border-gray-200 flex justify-between items-center px-6 py-3'>
     <div className=' items-center flex gap-4'>
-    <Image src='/assets/f-bulgarian.svg' width={21} height={14} />
+    <Image src='/assets/f-bulgarian.svg' width={21} height={14} alt='flag' />
     <p>Bulgarian</p>
     </div>
   <div className='bg-gray-300 rounded-full h-8 w-8 items-center inline-flex justify-center'>
@@ -53,7 +53,7 @@ function Modal(props) {
 </button>
 <button className='border rounded-lg border-gray-200 flex justify-between items-center px-6 py-3'>
     <div className=' items-center flex gap-4 '>
-    <Image src='/assets/f-english.svg' width={21} height={14} />
+    <Image src='/assets/f-english.svg' width={21} height={14} alt='flag' />
     <p>English</p>
     </div>
   <div className='bg-gray-300 rounded-full h-8 w-8 items-center inline-flex justify-center'>

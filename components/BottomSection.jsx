@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Button from './Button';
-import Header from './header';
+import Header from './Header';
 
 function BottomSection() {
   return (
@@ -16,7 +16,7 @@ function BottomSection() {
      </div>
      
         <div className='order-1 lg:order-2'>
-   <Image src='/assets/logo-11.png' width={400} height={400} />
+   <Image src='/assets/logo-11.png' width={400} height={400} alt='logo' />
         </div>
       </div>
     </div></div>
