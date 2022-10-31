@@ -1,26 +1,34 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  @apply scroll-smooth
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.hero-text {
+  background: linear-gradient(#9092fb,#86b5ef,#7bdde2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
-* {
-  box-sizing: border-box;
+body{
+  font-family: Graphik,ui-sans-serif,system-ui,sans-serif
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.hero-gradient {
+  background-image: radial-gradient(50% 50% at 50% 50%,#8e9af9 0,rgba(127,208,231,0) 100%);
+}
+.near-logo {
+  background: radial-gradient(50% 50% at 50% 50%,#8e9af9 0,rgba(127,208,231,0) 100%);
+  opacity: .9;
+  filter: blur(159.73px);
+}
+.bottom-development {
+  background: radial-gradient(50% 50% at 50% 50%,#7bdde2 0,rgba(127,208,231,0) 100%);
+  opacity: .9;
+  filter: blur(159.73px);
+}
+.target-logo {
+  background: radial-gradient(50% 50% at 50% 50%,#7bdde2 0,rgba(123,221,226,0) 100%);
+  filter: blur(159.73px);
+  opacity: .6;
 }
